@@ -1,0 +1,13 @@
+Note about Font Awesome 5 and Toggling the Form
+Section 18, Lecture 202
+Hi All,
+
+In the next lecture you'll be learning how to toggle the form for your todo list. If you're using the latest version of Font Awesome (5 or greater) for the plus icon, then you'll have trouble getting the code in that video to work correctly.
+
+Font Awesome 5 converts the <i> element into an SVG. To work around this we have to wrap the <i> element in a span and select the span in our JS with an id. This also means we have to style the todo list trash can spans with li span in our CSS, instead of just using span, which would mess up our toggle button.
+
+I've attached the updated solution for Font Awesome 5 (along with the original solution) in the next lecture's resources.
+
+-------
+Thanks,
+Ian

@@ -1,0 +1,13 @@
+Note about next lecture (Creating Todos):
+Section 18, Lecture 198
+Hi All!
+There's a typo in the following video at the 50 second mark. 
+Where it says: $("input[type='text'").keypress(function(event){ 
+it should actually be: $("input[type='text']").keypress(function(event){ the lecture version is missing a closing square bracket around the type attribute.
+The solution code has been updated to reflect this correction.
+
+Sorry for any confusion. :)
+
+Thanks,
+Ian
+Course TA

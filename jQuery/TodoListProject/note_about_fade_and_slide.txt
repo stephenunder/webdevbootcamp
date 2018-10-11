@@ -1,0 +1,12 @@
+Note About Todo List App Fade and Slide Animations
+Section 18, Lecture 192
+Hello Everyone,
+
+In the next video Colt will introduce the project for this section along with the technologies you'll be using to build the app with. In the video he mentions Fades and Slides with jQuery. You will be making use of jQuery's fadeOut and fadeToggle methods, but the slide animation (for the trashcan icon) will be done with CSS, not jQuery. 
+
+If you're unsure of how to do this with CSS and are unable to find instructions on the internet then please skip that part of the project until after you've watched how Colt does it in the lectures.
+
+It should also be noted that the .fadeOut() method will not work with the .slim version of jQuery. The regular .min version should be used instead.
+
+Thanks,
+Ian
